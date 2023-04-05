@@ -4,7 +4,6 @@ import 'package:toktik/infrastucture/models/local_video_model.dart';
 import 'package:toktik/shared/data/local_video_post.dart';
 
 class DiscoverProvider extends ChangeNotifier {
-  // TODO repository, dataSource
 
   bool initialLoading = true;
   List<VideoPost> videos = [];
